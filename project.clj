@@ -9,7 +9,9 @@
                  [metosin/muuntaja "0.6.4"]
                  [clj-time "0.15.1"]
                  [ring-cors "0.1.13"]
-                 [osm "0.0.5"]
-                 [nl.cloudfarming.client/lib-geotools "2.7.7-NB72"]
+                 [org.clojure/java.jdbc "0.7.10"]
+                 [org.clojure/data.csv "0.1.4"]
+                 [org.postgresql/postgresql "42.1.4"]
+                 [techascent/tech.ml.dataset "1.25"]
                  [mount "0.1.16"]]
   :repl-options {:init-ns know-your-neighborhood-backend.core})

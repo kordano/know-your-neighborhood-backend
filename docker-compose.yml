@@ -1,0 +1,13 @@
+version: '3.4'
+services:
+  db:
+    image: kartoza/postgis
+    restart: always
+    environment:
+      POSTGRES_USER: helsinki
+      POSTGRES_PASSWORD: konradisgreat
+    ports:
+      - "5435:5432"
+    volumes:
+      - ./setup-db.sql:/docker-entrypoint-initdb.d/setup-db.sql
+      - /home/konrad/lamia/data:/var/lib/postgresql/data
