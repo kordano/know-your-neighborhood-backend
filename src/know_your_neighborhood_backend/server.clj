@@ -15,12 +15,20 @@
             [clojure.spec.alpha :as s]
             [mount.core :refer [defstate]]
             [org.httpkit.server :as kit]
-            [know-your-neighborhood-backend.model]))
+            [clojure.java.shell :as shell]
+            [clojure.java.shell :as sh]))
 
 (defn ok [d] {:status 200 :body d})
 (defn bad-request [d] {:status 400 :body d})
 (defn body [req] (get-in req [:parameters :body]))
 (defn path [req k] (get-in req [:parameters :path k]))
+
+(s/def :search/checkAddressLat double?)
+(s/def :search/checkAddressLon double?)
+(s/def :search/targetAddressLat double?)
+(s/def :search/targetAddressLon double?)
+
+(s/def ::search (s/keys :req-un [:search/checkAddressLat :search/checkAddressLon :search/targetAddressLat :search/targetAddressLon]))
 
 (def app
   (->
@@ -33,9 +41,11 @@
               :handler (swagger/create-swagger-handler)}}]
       ["/api"
        ["/search"
-        {:get {:parameters {:query :know-your-neighborhood-backend.model/search}
-               :handler (fn [req]
-                          (ok {:foo :bar}))}}]]]
+        {:get {:parameters {:query ::search}
+               :handler (fn [{{coords :query} :parameters}]
+                          (let [result (:out (sh/sh "python" "dateParser.py"))]
+                            (println (:checkAddressLon coords))
+                            (ok {:results {:distance result}})))}}]]]
      {:data {:coercion reitit.coercion.spec/coercion
              :muuntaja m/instance
              :middleware [swagger/swagger-feature
