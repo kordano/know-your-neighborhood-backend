@@ -16,6 +16,7 @@
             [mount.core :refer [defstate]]
             [org.httpkit.server :as kit]
             [clojure.java.shell :as shell]
+            [clojure.string :as string]
             [clojure.java.shell :as sh]))
 
 ;;  drawing: [{"type": "Mark","lat": "123","lon": "123","additionalText": ""}]
@@ -32,6 +33,11 @@
 
 (s/def ::search (s/keys :req-un [:search/checkAddressLat :search/checkAddressLon :search/targetAddressLat :search/targetAddressLon]))
 
+(defn parse-distance [raw-py-results]
+  (->> (string/split raw-py-results #"\n")
+       (map #(->> (string/split % #",")
+                  (zipmap [:additionalText :distance :lat :lon])))))
+
 (def app
   (->
    (ring/ring-handler
@@ -45,8 +51,16 @@
        ["/search"
         {:get {:parameters {:query ::search}
                :handler (fn [{{coords :query} :parameters}]
-                          (let [result (:out (sh/sh "python" "dateParser.py"))]
-                            (ok {:results {:distance result :drawing [{:type "Mark" :lat "123.23" :lon "123.23" :additionalText "Krankenhaus"}]}})))}}]]]
+                          (let [results (parse-distance (:out (sh/sh "python" "dateParser.py")))
+                                next-station (select-keys (clojure.set/rename-keys (first results) {:additionalText :stationName}) [:stationName :distance])
+                                drawing (->> results
+                                             rest
+                                             (map (fn [r] (-> r
+                                                              (assoc :type "Mark" )
+                                                              (dissoc :distance))))
+                                             (into #{})
+                                             vec)]
+                            (ok {:results next-station :drawing drawing})))}}]]]
      {:data {:coercion reitit.coercion.spec/coercion
              :muuntaja m/instance
              :middleware [swagger/swagger-feature
