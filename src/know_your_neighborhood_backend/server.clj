@@ -18,6 +18,8 @@
             [clojure.java.shell :as shell]
             [clojure.java.shell :as sh]))
 
+;;  drawing: [{"type": "Mark","lat": "123","lon": "123","additionalText": ""}]
+
 (defn ok [d] {:status 200 :body d})
 (defn bad-request [d] {:status 400 :body d})
 (defn body [req] (get-in req [:parameters :body]))
@@ -44,8 +46,7 @@
         {:get {:parameters {:query ::search}
                :handler (fn [{{coords :query} :parameters}]
                           (let [result (:out (sh/sh "python" "dateParser.py"))]
-                            (println (:checkAddressLon coords))
-                            (ok {:results {:distance result}})))}}]]]
+                            (ok {:results {:distance result :drawing [{:type "Mark" :lat "123.23" :lon "123.23" :additionalText "Krankenhaus"}]}})))}}]]]
      {:data {:coercion reitit.coercion.spec/coercion
              :muuntaja m/instance
              :middleware [swagger/swagger-feature
@@ -54,15 +55,14 @@
                           muuntaja/format-response-middleware
                           muuntaja/format-request-middleware
                           coercion/coerce-response-middleware
-                          coercion/coerce-request-middleware
-                          ]}})
+                          coercion/coerce-request-middleware]}})
     (ring/routes
      (swagger-ui/create-swagger-ui-handler
       {:path "/"
        :config {:validatorUrl nil :operationsSorter "alpha"}})
      (ring/create-default-handler))
     {:executor sieppari/executor})
-(wrap-cors :access-control-allow-origin [#"http://localhost" #"http://localhost:9000/*" #"http://localhost:3000"]
+   (wrap-cors :access-control-allow-origin [#"http://localhost" #"http://localhost:9000/*" #"http://localhost:3000"]
               :access-control-allow-methods [:get :put :post :delete])))
 
 (defstate server
