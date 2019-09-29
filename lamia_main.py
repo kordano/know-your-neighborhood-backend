@@ -1,14 +1,19 @@
 import csv
 import math
 import json
+import sys
 
 def main():
     # y0: longitude, x0: latitude
-	y0 = 60.1692942
-	x0 = 24.9258062
+#	y0 = 60.1692942
+	# x0 = 24.9258062
+	raw_x0 = sys.argv[1]
+	raw_y0 = sys.argv[2]
+	x0 = float(raw_x0)
+	y0 = float(raw_y0)
+
 	# Max radius of the included services
 	d_in = 0.8
-	 
 	bikes_filename = 'HSL_bikes.csv'
 	terminals_filename = 'HSL_terminals.csv'
 	services_filename = 'Konrad_data.csv'
@@ -73,10 +78,10 @@ def file_read_and_print_within(subject, filename, x0, y0, x_ind, y_ind, name_ind
 		# IFELSE returns the type of service if we look at services. This is an ugly fix.
 		if filename == 'Konrad_data.csv':
 			within_list_short[i] = (place_tuple[name_ind], distance, place_tuple[x_ind], place_tuple[y_ind], place_tuple[0])
-			print place_tuple[name_ind] + "," +  str(distance) + "," + place_tuple[x_ind] +  "," +  place_tuple[y_ind] + "," + place_tuple[0]
+			print place_tuple[name_ind] + "," +  str(distance) + "," + place_tuple[y_ind] +  "," +  place_tuple[x_ind] + "," + place_tuple[0]
 		else:
 			within_list_short[i] = (place_tuple[name_ind], distance, place_tuple[x_ind], place_tuple[y_ind])
-			print place_tuple[name_ind] + "," +  str(distance) + "," + place_tuple[x_ind] +  "," +  place_tuple[y_ind]
+			print place_tuple[name_ind] + "," +  str(distance) + "," + place_tuple[y_ind] +  "," +  place_tuple[x_ind]
 		#print("{0} is located {1} m away.".format(place_tuple[name_ind], distance)) 
 		i = i+1
 	return within_list_short

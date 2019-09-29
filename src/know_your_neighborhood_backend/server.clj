@@ -17,6 +17,7 @@
             [org.httpkit.server :as kit]
             [clojure.java.shell :as shell]
             [clojure.string :as string]
+            [clojure.data.json :as json]
             [clojure.java.shell :as sh]))
 
 (defn ok [d] {:status 200 :body d})
@@ -36,6 +37,15 @@
        (map #(->> (string/split % #",")
                   (zipmap [:additionalText :distance :lat :lon :service])))))
 
+;; "" // 'red' | 'darkred' | 'orange' | 'green' | 'darkgreen' | 'blue' | 'purple' | 'darkpurple' | 'cadetblue',
+(def service-color
+  {"health" "green"
+   "safety" "red"
+   "daycare" "purple"
+   "education" "blue"
+   "traffic" "darkred"
+   "culture" "darkgreen"})
+
 (def app
   (->
    (ring/ring-handler
@@ -49,7 +59,8 @@
        ["/search"
         {:get {:parameters {:query ::search}
                :handler (fn [{{coords :query} :parameters}]
-                          (let [distances (parse-distance (:out (sh/sh "python" "lamia_main.py" )))
+                          (let [distance-out (:out (sh/sh "python" "lamia_main.py" (str (:checkAddressLon coords)) (str (:checkAddressLat coords)) ))
+                                distances (parse-distance distance-out )
                                 next-station (select-keys (clojure.set/rename-keys (first distances) {:additionalText :name}) [:name :distance])
                                 distances (rest distances)
                                 next-termimal (select-keys (clojure.set/rename-keys (first distances) {:additionalText :name}) [:name :distance])
@@ -57,13 +68,31 @@
                                 freqs (frequencies (map :service distances))
                                 drawing (->> distances
                                              (map (fn [r] (-> r
-                                                              (assoc :type "Mark" :tooltip (:additionalText r) :popup (:service r))
+                                                              (assoc :type "Marker"
+                                                                     :tooltip (:additionalText r)
+                                                                     :popup (:service r)
+                                                                     :markerColor (get service-color (:service r)))
                                                               (dissoc :distance :service))))
                                              (into #{})
                                              vec)
-                                a-to-b (:out (sh/sh "python" "pythonscripts/a_to_b.py" ))]
-
-                            (ok {:results [{:nextBike next-station} {:nextTerminal next-termimal} {:services freqs}] :drawing drawing})))}}]]]
+                                a-to-b (json/read-str (:out (sh/sh "python3" "pythonscripts/a_to_b.py" (str (:checkAddressLat coords)) (str (:checkAddressLon coords)) (str (:targetAddressLat coords)) (str (:targetAddressLon coords)))))
+                                a-to-b-drawing (map
+                                                (fn [c]
+                                                  {:type "Polyline"
+                                                   :coordinates (mapv (fn [coords] (first (vec (vals coords)))) (get c "Geometry"))
+                                                   :color "orange"
+                                                   :popup (str "CO2: " (get c "co2_emissions") ", time: " (get c "Duration_mins") ", steps: " (get c "Itinerary_Desc"))
+                                                   :tooltip (get c "Duration_mins")})
+                                                a-to-b)]
+                            (ok {:results [{:nextBike next-station}
+                                           {:nextTerminal next-termimal}
+                                           {:services freqs}
+                                           {:itineraries (into {}
+                                                               (mapv
+                                                                (fn [c] [(get c "Itinerary_Desc")
+                                                                         (str (get c "Duration_mins") " mins, " (get c "co2_emissions") " CO2")])
+                                                                a-to-b))}]
+                                 :drawable (concat drawing a-to-b-drawing)})))}}]]]
      {:data {:coercion reitit.coercion.spec/coercion
              :muuntaja m/instance
              :middleware [swagger/swagger-feature
