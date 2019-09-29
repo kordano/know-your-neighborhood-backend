@@ -1,0 +1,351 @@
+﻿FID,ID,Nimi,Namn,Name,Osoite,Adress,Kaupunki,Stad,Operaattor,Kapasiteet,x,y
+1,001,Kaivopuisto,Brunnsparken,Kaivopuisto,Meritori 1,Havstorget 1,Helsinki,Helsingfors,CityBike Finland,30,24.9502928896903,60.155444793821
+2,002,Laivasillankatu,Skeppsbrogatan,Laivasillankatu,Laivasillankatu 14,Skeppsbrogatan 14,Helsinki,Helsingfors,CityBike Finland,12,24.9563474717587,60.1609590943154
+3,003,Kapteeninpuistikko,Kaptensskvären,Kapteeninpuistikko,Tehtaankatu 13,Fabriksgatan 13,Helsinki,Helsingfors,CityBike Finland,19,24.9449274,60.1581892
+4,004,Viiskulma,Femkanten,Viiskulma,Fredrikinkatu 19,Fredriksgatan  19,Helsinki,Helsingfors,CityBike Finland,14,24.9417758,60.1609859
+5,005,Sepänkatu,Smedsgatan,Sepänkatu,Tehtaankatu 25,Fabriksgatan 25,Helsinki,Helsingfors,CityBike Finland,32,24.9362853,60.1579483
+6,006,Hietalahdentori,Sandvikens torg,Hietalahdentori,Hietalahdenkatu 2,Sandviksgatan 2,Helsinki,Helsingfors,CityBike Finland,24,24.9297099,60.1622251
+7,007,Designmuseo,Designmuseet,Design Museum,Korkeavuorenkatu 23,Högbergsgatan 23,Helsinki,Helsingfors,CityBike Finland,14,24.94596,60.1631032
+8,008,Vanha kirkkopuisto,Gamla kyrkoparken,Vanha kirkkopuisto,Annankatu 16,Annegatan 16,Helsinki,Helsingfors,CityBike Finland,25,24.9391499,60.1652883
+9,009,Erottajan aukio,Skillnadsplatsen,Erottajan aukio,Eteläesplanadi 22,Södra esplanaden 22,Helsinki,Helsingfors,CityBike Finland,1,24.9441349288079,60.1669116668204
+10,010,Kasarmitori,Kaserntorget,Kasarmitori,Fabianinkatu 13,Fabiansgatan 13,Helsinki,Helsingfors,CityBike Finland,29,24.94947287873,60.1650171805
+11,011,Unioninkatu,Unionsgatan,Unioninkatu,Eteläesplanadi 1,Södra esplanaden 1,Helsinki,Helsingfors,CityBike Finland,22,24.9510227,60.1674573
+12,012,Kanavaranta,Kanalkajen,Kanavaranta,Kanavaranta 1,Kanalkajen 1,Helsinki,Helsingfors,CityBike Finland,26,24.9583814,60.168384
+13,013,Merisotilaantori,Flottisttorget,Merisotilaantori,Merisotilaantori,Flottisttorget,Helsinki,Helsingfors,CityBike Finland,12,24.9755341,60.1678703
+14,014,Senaatintori,Senatstorget,Senate Square,Aleksanterinkatu 22,Alexandersgatan 22,Helsinki,Helsingfors,CityBike Finland,22,24.9526414,60.1691278
+15,015,Ritarikatu,Riddaregatan,Ritarikatu,Ritarikatu 7,Riddaregatan 7,Helsinki,Helsingfors,CityBike Finland,12,24.95555819284,60.17110664588
+16,016,Liisanpuistikko,Elisabetsskvären,Liisanpuistikko,Liisankatu 1,Elisabetsgatan 1,Helsinki,Helsingfors,CityBike Finland,16,24.9613747,60.1741822
+17,017,Varsapuistikko,Fölskvären,Varsapuistikko,Yrjö-Koskisen katu 1,Yrjö-Koskinens gata 1,Helsinki,Helsingfors,CityBike Finland,30,24.9494791,60.1731029
+18,018,Porthania,Porthania,Porthania,Yliopistonkatu 3,Universitetsgatan 3,Helsinki,Helsingfors,CityBike Finland,21,24.9481463998,60.16986222858
+19,019,Rautatientori / itä,Järnvägstorget/öst,Central Railway Station/East,Rautatientori 1,Järnvägstorget 1,Helsinki,Helsingfors,CityBike Finland,21,24.9425268,60.1708236
+20,020,Kaisaniemenpuisto,Kajsaniemiparken,Kaisaniemenpuisto,Bergbominkuja 1,Bergbomsgränden 1,Helsinki,Helsingfors,CityBike Finland,22,24.9433010006817,60.1731989417251
+21,021,Töölönlahdenkatu,Tölöviksgatan,Töölönlahdenkatu,Töölönlahdenkatu 1,Tölöviksgatan 1,Helsinki,Helsingfors,CityBike Finland,49,24.939284,60.1729435
+22,022,Rautatientori / länsi,Järnvägstorget/väst,Central Railway Station/West,Kaivokatu 1,Brunnsgatan 1,Helsinki,Helsingfors,CityBike Finland,17,24.9397601,60.1706061
+23,023,Kiasma,Kiasma,Kiasma,Mannerheiminaukio 1,Mannerheimplatsen 1,Helsinki,Helsingfors,CityBike Finland,30,24.9374279,60.1712579
+24,024,Mannerheimintie,Mannerheimvägen,Mannerheimintie,Mannerheiminitie 18,Mannerheimvägen 18,Helsinki,Helsingfors,CityBike Finland,21,24.9394195,60.1690724
+25,025,Narinkka,Narinken,Narinkka,Narinkka 1,Narinken 1,Helsinki,Helsingfors,CityBike Finland,41,24.9351212,60.1700844
+26,026,Kamppi (M),Kampen (M),Kamppi (M),Fredrikinkatu 44,Fredriksgatan 44,Helsinki,Helsingfors,CityBike Finland,32,24.9305373,60.1686095
+27,027,Eerikinkatu,Eriksgatan,Eerikinkatu,Eerikinkatu 8,Eriksgatan 8,Helsinki,Helsingfors,CityBike Finland,14,24.9357851,60.1673332
+28,028,Lastenlehto,Barnlunden,Lastenlehto,Lapinrinne,Lappbrinken,Helsinki,Helsingfors,CityBike Finland,16,24.927021,60.1658121
+29,029,Baana,Banan,Baana,Ruoholahdenkatu 23,Gräsviksgatan 23,Helsinki,Helsingfors,CityBike Finland,16,24.9225658,60.164088
+30,030,Itämerentori,Östersjötorget,Itämerentori,Itämerentori 1,Östersjötorget 1,Helsinki,Helsingfors,CityBike Finland,42,24.9145165,60.1635309
+31,031,Marian sairaala,Maria sjukhus,Maria Hospital,Pohjoinen Rautatiekatu 33,Norra Järnvägsgatan 33,Helsinki,Helsingfors,CityBike Finland,18,24.9220763,60.1680998
+32,032,Eläinmuseo,Naturhistoriska museet,Finnish Museum of Natural History,Pohjoinen Rautatiekatu 13,Norra Järnvägsgatan 13,Helsinki,Helsingfors,CityBike Finland,20,24.9312234051774,60.1718700553732
+33,033,Kauppakorkeakoulu,Handelshögskolan,Hanken School of Economics,Arkadiankatu 20,Arkadiagatan 20,Helsinki,Helsingfors,CityBike Finland,16,24.924961,60.1711591
+34,034,Kansallismuseo,Nationalmuseum,National Museum,Mannerheimintie 30,Mannerheimvägen 30,Helsinki,Helsingfors,CityBike Finland,17,24.9329875,60.1739641
+35,035,Cygnaeuksenkatu,Cygnaeusgatan,Cygnaeuksenkatu,Cygnaeuksenkatu 1,Cygnaeusgatan 1,Helsinki,Helsingfors,CityBike Finland,16,24.92822758053,60.174063715
+36,036,Apollonkatu,Apollogatan,Apollonkatu,Runeberginkatu 43,Runebergsgatan 43,Helsinki,Helsingfors,CityBike Finland,13,24.9223942,60.1760798
+37,037,Töölönkatu,Tölögatan,Töölönkatu,Pohjoinen Hesperiankatu 3,Norra Hesperiagatan 3,Helsinki,Helsingfors,CityBike Finland,20,24.9283272,60.1775598
+38,038,Töölöntori,Tölötorg,Töölöntori,Töölöntorinkatu 11,Tölötorggatan 11,Helsinki,Helsingfors,CityBike Finland,16,24.9249114,60.1791231
+39,039,Ooppera,Nationaloperan,Opera,Mannerheimintie 62,Mannerheimvägen 62,Helsinki,Helsingfors,CityBike Finland,25,24.926687,60.1825529
+40,040,Hakaniemi (M),Hagnäs (M),Hakaniemi (M),John Stenberginranta 6,John Stenbergs strand 6,Helsinki,Helsingfors,CityBike Finland,28,24.95218124892,60.17810631604
+41,041,Ympyrätalo,Runda huset,Ympyrätalo,Porthaninrinne 1,Porthansbrinken 1,Helsinki,Helsingfors,CityBike Finland,29,24.9494,60.180863
+42,042,Haapaniemenkatu,Aspnäsgatan,Haapaniemenkatu,Haapaniemenkatu 2,Aspnäsgatan 2,Helsinki,Helsingfors,CityBike Finland,19,24.9551808216932,60.1831065830755
+43,043,Karhupuisto,Björnparken,Karhupuisto,Agricolankatu 11,Agricolagatan 11,Helsinki,Helsingfors,CityBike Finland,20,24.9526763,60.1842833
+44,044,Sörnäinen (M),Sörnäs (M),Sörnäinen (M),Vaasanpuistikko 1a,Vaasanpuistikko 1a,Helsinki,Helsingfors,CityBike Finland,21,24.9608921062125,60.1880380542668
+45,045,Brahen kenttä,Braheplan,Brahen kenttä,Helsinginkatu 22,Helsingegatan 22,Helsinki,Helsingfors,CityBike Finland,20,24.9509168,60.1868618
+46,046,Diakoniapuisto,Diakoniparken,Diakoniapuisto,Helsinginkatu 44,Helsingegatan 44,Helsinki,Helsingfors,CityBike Finland,10,24.9418576,60.1862877
+47,047,Vanha Kauppahalli,Salutorget,Market Square,Lyypekinlaituri,Lybeckskajen,Helsinki,Helsingfors,CityBike Finland,23,24.953535,60.165343
+48,048,Mastokatu,Mastgatan,Mastokatu,Mastokatu 2,Mastgatan 2,Helsinki,Helsingfors,CityBike Finland,16,24.9674861,60.1647545
+49,049,Annankatu,Annankatu,Annankatu,Annankatu 5,Annegatan 5,Helsinki,Helsingfors,CityBike Finland,16,24.94177084206,60.16345894291
+50,050,Melkonkuja,Melkögränd,Melkonkuja,Melkonkuja 1,Melkögränd 1,Helsinki,Helsingfors,CityBike Finland,12,24.8861094,60.1498127
+51,051,Itälahdenkatu,Österviksgatan,Itälahdenkatu,Itälahdenkatu 15,Österviksgatan 15,Helsinki,Helsingfors,CityBike Finland,13,24.8812502,60.15066
+52,052,Heikkilänaukio,Heikasplatsen,Heikkilänaukio,Heikkilänaukio 1,Heikasplatsen 1,Helsinki,Helsingfors,CityBike Finland,21,24.8793159,60.1540763
+53,053,Heikkiläntie,Heikasvägen,Heikkiläntie,Heikkiläntie 7,Heikasvägen 7,Helsinki,Helsingfors,CityBike Finland,12,24.8850653,60.156817
+54,054,Gyldenintie,Gyldénsvägen,Gyldenintie,Gyldenintie 2,Gyldénsvägen 2,Helsinki,Helsingfors,CityBike Finland,36,24.8766658,60.1583842
+55,055,Puistokaari,Parksvängen,Puistokaari,Isokaari 33,Storsvängen 33,Helsinki,Helsingfors,CityBike Finland,16,24.85986626853,60.16169596138
+56,056,Luoteisväylä,Nordvästpassagen,Luoteisväylä,Luoteisväylä 17,Nordvästpassagen 17,Helsinki,Helsingfors,CityBike Finland,12,24.8601992,60.1654485
+57,057,Lauttasaaren ostoskeskus,Drumsö köpcentrum,Lauttasaari Shopping Center,Lauttasaarentie 26,Drumsövägen 26,Helsinki,Helsingfors,CityBike Finland,26,24.8815441,60.1603306
+58,058,Lauttasaarensilta,Drumsö bro,Lauttasaarensilta,Lauttasaarentie 1,Drumsövägen 1,Helsinki,Helsingfors,CityBike Finland,20,24.8926386,60.1615512
+59,059,Salmisaarenranta,Sundholmsstranden,Salmisaarenranta,Salmisaarenranta 9,Sundholmstranden 9,Helsinki,Helsingfors,CityBike Finland,21,24.90096080349,60.16478138043
+60,060,Porkkalankatu,Porkalagatan,Porkkalankatu,Itämerenkatu 34,Östersjögatan 34,Helsinki,Helsingfors,CityBike Finland,42,24.905336,60.1632493
+61,061,Länsisatamankatu,Västrahamnsgatan,Länsisatamankatu,Länsisatamankatu 19,Västrahamnsgatan 19,Helsinki,Helsingfors,CityBike Finland,16,24.909692,60.1589276
+62,062,Messitytönkatu,Mässflicksgatan,Messitytönkatu,Selkämerenkatu 12,Bottenhavsgatan 12,Helsinki,Helsingfors,CityBike Finland,20,24.9158734,60.1610901
+63,063,Jätkäsaarenlaituri,Busholmskajen,Jätkäsaarenlaituri,Jätkäsaarenlaituri 1,Busholmskajen 1,Helsinki,Helsingfors,CityBike Finland,24,24.9214896,60.1619311
+64,064,Tyynenmerenkatu,Stillahavsgatan,Tyynenmerenkatu,Tyynenmerenkatu 9,Stillhavsgatan 9,Helsinki,Helsingfors,CityBike Finland,30,24.920661,60.156838
+65,065,Hylkeenpyytäjänkatu,Säljägargatan,Hylkeenpyytäjänkatu,Hylkeenpyytäjänkatu 1a,Säljägargatan 1a,Helsinki,Helsingfors,CityBike Finland,30,24.9312540670602,60.1535296817898
+66,066,Ehrenströmintie,Ehrenströmsvägen,Ehrenströmintie,Ehrenströmintie 3,Ehrenströmsvägen 3,Helsinki,Helsingfors,CityBike Finland,20,24.9591271,60.155309
+67,067,Perämiehenkatu,Styrmansgatan,Perämiehenkatu,Perämiehenkatu 15,Styrmansgatan,Helsinki,Helsingfors,CityBike Finland,16,24.93383428634,60.15997725117
+68,068,Albertinkatu,Albertsgatan,Albertinkatu,Albertinkatu 17,Albertsgatan 17,Helsinki,Helsingfors,CityBike Finland,20,24.9368179,60.1618359
+69,69,Kalevankatu,Kalevagatan,Kalevankatu,Albertinkatu 35,Albertsgatan 35,Helsinki,Helsingfors,CityBike Finland,16,24.9314323,60.1656962
+70,069,Sammonpuistikko,Samposkvären,Sammonpuistikko,Sammonkatu 3,Sampogatan 3,Helsinki,Helsingfors,CityBike Finland,14,24.9224112,60.1731473
+71,071,Hietaniemenkatu,Sanduddsgatan,Hietaniemenkatu,Hietaniemenkatu 20,Sanduddsgatan 20,Helsinki,Helsingfors,CityBike Finland,24,24.91127964812,60.17261154618
+72,072,Eteläinen Hesperiankatu,Södra Hesperiagatan,Eteläinen Hesperiankatu,Eteläinen Hesperiankatu 38,Södrä Hesperiagatan 38,Helsinki,Helsingfors,CityBike Finland,18,24.9156627516855,60.1755878740783
+73,073,Kesäkatu,Sommargatan,Kesäkatu,Kesäkatu 8,Sommargatan 8,Helsinki,Helsingfors,CityBike Finland,14,24.9132504,60.1792967
+74,074,Rajasaarentie,Råholmsvägen,Rajasaarentie,Rajasaarentie 6,Råholmsvägen,Helsinki,Helsingfors,CityBike Finland,16,24.911127,60.183137
+75,075,Korjaamo,Korjaamo,Korjaamo,Töölönkatu 51a,Tölögatan 51a,Helsinki,Helsingfors,CityBike Finland,25,24.9198371,60.1838677
+76,076,Olympiastadion,Olympiastadion,Olympic Stadium,Toivonkatu 3,Toivogatan 3,Helsinki,Helsingfors,CityBike Finland,20,24.9249741,60.1845055
+77,077,Nordenskiöldinaukio,Nordenskiöldsplatsen,Nordenskiöldinaukio,Linnankoskenkatu 15-17,Linnankoskigatan 15-17,Helsinki,Helsingfors,CityBike Finland,16,24.9172498411259,60.185236329671
+78,078,Messeniuksenkatu,Messeniusgatan,Messeniuksenkatu,Messeniuksenkatu 1a,Messeniusgatan 1a,Helsinki,Helsingfors,CityBike Finland,24,24.9180102,60.1878352
+79,079,Uimastadion,Simstadion,Swimming Stadium,Hammarskjöldintie 5,Hammarsköljdsvägen 5,Helsinki,Helsingfors,CityBike Finland,18,24.9292286,60.1892172
+80,080,Jäähalli,Ishall,Ice hall,Nordenskiöldinkatu 11,Nordenskiöldsgatan 11,Helsinki,Helsingfors,CityBike Finland,22,24.9205978,60.1894025
+81,081,Stenbäckinkatu,Stenbäcksgatan,Stenbäckinkatu,Stenbäckinkatu 9,Stenbäcksgatan 9,Helsinki,Helsingfors,CityBike Finland,18,24.9123717,60.1883091
+82,082,Töölöntulli,Tölötull,Töölöntulli,Mannerheimintie 112,Mannerheimvägen 112,Helsinki,Helsingfors,CityBike Finland,16,24.9128271354279,60.1909569322666
+83,083,Meilahden sairaala,Mejlans sjukhus,Meilahti Hospital,Haartmaninkatu 4,Haartmansgatan 4,Helsinki,Helsingfors,CityBike Finland,28,24.9083351,60.1902195
+84,084,Paciuksenkatu,Paciusgatan,Paciuksenkatu,Mäntytie 2,Tallvägen 2,Helsinki,Helsingfors,CityBike Finland,14,24.8999100503645,60.1912021559682
+85,085,Jalavatie,Almvägen,Jalavatie,Jalavatie 10,Almvägen 10,Helsinki,Helsingfors,CityBike Finland,16,24.905889,60.1934696
+86,086,Kuusitie,Granvägen,Kuusitie,Mannerheimintie 152,Mannerheimvägen 152,Helsinki,Helsingfors,CityBike Finland,20,24.9018997,60.1952452
+87,087,Kustaankatu,Gustavsgatan,Kustaankatu,Kustaankatu 4b,Gustafsgatan 4b,Helsinki,Helsingfors,CityBike Finland,20,24.95597593163,60.1882752174
+88,088,Kiskontie,Kiskovägen,Kiskontie,Mannerheimintie 99,Mannerheimvägen 99,Helsinki,Helsingfors,CityBike Finland,20,24.9012997,60.1989402
+89,089,Tilkanvierto,Tilkkalänken,Tilkanvierto,Tilkankatu 41,Tilkgatan 41,Helsinki,Helsingfors,CityBike Finland,16,24.899261,60.1975329
+90,090,Paciuksenkaari,Paciussvängen,Paciuksenkaari,Johannesbergintie 6,Johannesbergsvägen 6,Helsinki,Helsingfors,CityBike Finland,20,24.8911179,60.1944475
+91,091,Seurasaari,Fölisön,Seurasaari,Seurasaarentie 15,Fölisövägen 15,Helsinki,Helsingfors,CityBike Finland,23,24.8847362,60.188399
+92,092,Saunalahdentie,Bastuviksvägen,Saunalahdentie,Saunalahdentie 1,Bastuviksvägen 1,Helsinki,Helsingfors,CityBike Finland,8,24.87922144235,60.1926305828
+93,093,Torpanranta,Torpanranta,Torpanranta,Laajalahdentie 1,Bredsvikvägen 1,Helsinki,Helsingfors,CityBike Finland,16,24.8713963,60.1948358
+94,094,Laajalahden aukio,Bredviksplatsen,Laajalahden aukio,Munkkiniemen puistotie 21,Munksnäs allén 21,Helsinki,Helsingfors,CityBike Finland,16,24.8762217165007,60.197930907568
+95,095,Munkkiniemen aukio,Munksnäsplatsen,Munkkiniemen aukio,Munkkiniemen puistotie 1,Munksnäs allén 1,Helsinki,Helsingfors,CityBike Finland,18,24.8840917,60.1967196
+96,096,Huopalahdentie,Hoplaksvägen,Huopalahdentie,Huopalahdentie 13,Hoplaksvägen 13,Helsinki,Helsingfors,CityBike Finland,14,24.8836209,60.1996653
+97,098,Ulvilantie,Ulfsbyvägen,Ulvilantie,Porintie 1,Björneborgsvägen,Helsinki,Helsingfors,CityBike Finland,12,24.8708833,60.2038803
+98,099,Muusantori,Musans torg,Muusantori,Muusantori 5,Musanstorg 5,Helsinki,Helsingfors,CityBike Finland,12,24.8559544,60.2071193
+99,100,Teljäntie,Täljevägen,Teljäntie,Ulvilantie 21,Ulfsbyvägen 21,Helsinki,Helsingfors,CityBike Finland,12,24.868739477208,60.2096956258026
+100,101,Munkkivuoren ostoskeskus,Munkhöjdens köpcentrum,Munkkivuori Shopping Center,Huopalahdentie 20b,Hoplaksvägen 20b,Helsinki,Helsingfors,CityBike Finland,24,24.8798291,60.2059946
+101,103,Vihdintie,Vichtisvägen,Vihdintie,Vihdintie 2,Vichtisvägen 2,Helsinki,Helsingfors,CityBike Finland,16,24.8895209,60.208925
+102,104,Kriikunakuja,Krikongränden,Kriikunakuja,Korppaanmäentie 26,Korpasbackavägen 26,Helsinki,Helsingfors,CityBike Finland,16,24.8916817,60.2056785
+103,105,Tilkantori,Tilktorget,Tilkantori,Tilkantori 3,Tilktorget 3,Helsinki,Helsingfors,CityBike Finland,17,24.8934761,60.2028392
+104,106,Korppaanmäentie,Korpasbackavägen,Korppaanmäentie,Mannerheimintie 170,Mannerheimvägen,Helsinki,Helsingfors,CityBike Finland,16,24.8989297,60.2034735
+105,107,Tenholantie,Tenalavägen,Tenholantie,Kiskontie 22,Kiskovägen 22,Helsinki,Helsingfors,CityBike Finland,18,24.9054609,60.2024393
+106,108,Radiokatu,Radiogatan,Radiokatu,Radiokatu 24,Radiogatan 24,Helsinki,Helsingfors,CityBike Finland,14,24.91794928954,60.20444389917
+107,109,Hertanmäenkatu,Hertabacksgatan,Hertanmäenkatu,Radiokatu 6,Radiogatan 6,Helsinki,Helsingfors,CityBike Finland,20,24.9226300335,60.20232751643
+108,110,Maistraatintori,Magistratstorget,Maistraatintori,Pasilanraitio 9b,Böletået 9b,Helsinki,Helsingfors,CityBike Finland,14,24.924304,60.200047
+109,111,Esterinportti,Estersporten,Esterinportti,Pasilanraitio 5,Böletået 5,Helsinki,Helsingfors,CityBike Finland,21,24.9267808,60.1975724
+110,112,Rautatieläisenkatu,Järnvägsmannagatan,Rautatieläisenkatu,Ratapihantie 13,Bangårdsvägentie 13,Helsinki,Helsingfors,CityBike Finland,23,24.9332721,60.2014382
+111,113,Veturitori,Loktorget,Veturitori,Veturitori,Loktorget,Helsinki,Helsingfors,CityBike Finland,40,24.93520368471,60.19970941415
+112,114,Ratapihantie,Bangårdsvägen,Ratapihantie,Ratapihantie 3,Bangårdsvägentie 3,Helsinki,Helsingfors,CityBike Finland,23,24.93588683501,60.19701384571
+113,115,Venttiilikuja,Ventilgränden,Venttiilikuja,Venttiilikuja  1 & 2,Ventilgränden 1 & 2,Helsinki,Helsingfors,CityBike Finland,18,24.941578,60.1942095
+114,116,Linnanmäki,Borgbacken,Linnanmäki Amusement Park,Viipurinkatu 20,Viborgsgatan 20,Helsinki,Helsingfors,CityBike Finland,32,24.9401593,60.1911411
+115,117,Brahen puistikko,Braheskvären,Brahen puistikko,Sturenkatu 12,Sturegatan 12,Helsinki,Helsingfors,CityBike Finland,12,24.9481024,60.1896706
+116,118,Fleminginkatu,Flemingsgatan,Fleminginkatu,Aleksis Kiven katu 30,Aleksis Kivis gata 30,Helsinki,Helsingfors,CityBike Finland,23,24.9521601,60.1895417
+117,119,Gebhardinaukio,Gebhardsplatsen,Gebhardinaukio,Teollisuuskatu 1,Industrigatan 1,Helsinki,Helsingfors,CityBike Finland,20,24.9568729,60.1907096
+118,120,Mäkelänkatu,Backasgatan,Mäkelänkatu,Mäkelänkatu 2,Backasgatan 2,Helsinki,Helsingfors,CityBike Finland,28,24.9635596,60.1896352
+119,121,Vilhonvuorenkatu,Vilhelmsbergsgatan,Vilhonvuorenkatu,Vilhonvuorenkatu 12,Vilhelmsbergsgatan 12,Helsinki,Helsingfors,CityBike Finland,16,24.9678718,60.1864633
+120,122,Lintulahdenkatu,Fågelviksgatan,Lintulahdenkatu,Lintulahdenkuja 6,Fågelviksgränden 6,Helsinki,Helsingfors,CityBike Finland,17,24.9621936,60.1837182
+121,123,Näkinsilta,Näckens bro,Näkinsilta,Sörnäisten rantatie 9,Sörnas strandväg 9,Helsinki,Helsingfors,CityBike Finland,24,24.9554618,60.179765
+122,124,Isoisänsilta,Farfarsbron,Isoisänsilta,Capellan puistotie 2,Capellas allé 2,Helsinki,Helsingfors,CityBike Finland,18,24.98179260578,60.18265182058
+123,125,Arielinkatu,Arielgatan,Arielinkatu,Arielinkatu 14,Arielgatan 14,Helsinki,Helsingfors,CityBike Finland,20,24.97864799006,60.18479903388
+124,126,Kalasatama (M),Fiskehamnen (M),Kalasatama (M),Hermannin rantatie 2c,Hermanstads strandväg 2c,Helsinki,Helsingfors,CityBike Finland,29,24.9770684,60.18755649
+125,127,Teurastamo,Teurastamo,Teurastamo,Työpajankatu 2a,Verkstadsgatan 2a,Helsinki,Helsingfors,CityBike Finland,20,24.9711926,60.1896994
+126,128,Päijänteentie,Päijännevägen,Päijänteentie,Päijänteentie 1,Päijännevägen 1,Helsinki,Helsingfors,CityBike Finland,15,24.9642238,60.1920576
+127,129,Pernajantie,Pernåvägen,Pernajantie,Mäkelänkatu 25,Backasgatan 25,Helsinki,Helsingfors,CityBike Finland,21,24.9579931,60.1942342
+128,130,Teollisuuskatu,Industrigatan,Teollisuuskatu,Teollisuuskatu 16,Industrigatan 16,Helsinki,Helsingfors,CityBike Finland,25,24.9487524,60.193486
+129,131,Elimäenkatu,Elimägatan,Elimäenkatu,Elimäenkatu 24,Elimägatan 24,Helsinki,Helsingfors,CityBike Finland,24,24.9476186,60.1962627
+130,132,Hollolantie,Hollolavägen,Hollolantie,Hollolantie 2,Hollolavägen 2,Helsinki,Helsingfors,CityBike Finland,12,24.95453389981,60.19588479865
+131,133,Paavalinpuisto,Paulusparken,Paavalinpuisto,Hämeentie 96,Tavastvägen 96,Helsinki,Helsingfors,CityBike Finland,1,24.9614385,60.1974886
+132,134,Haukilahdenkatu,Gäddviksgatan,Haukilahdenkatu,Haukilahdenkatu 6,Gäddviksgatan 6,Helsinki,Helsingfors,CityBike Finland,20,24.9676708,60.1985314
+133,135,Velodrominrinne,Velodromsbrinken,Velodrominrinne,Mäkelänkatu 70,Backasgatan 70,Helsinki,Helsingfors,CityBike Finland,13,24.9440506,60.2010614
+134,136,Sofianlehdonkatu,Sofielundsgatan,Sofianlehdonkatu,Isonniitynkatu 7,Storsvängen 7,Helsinki,Helsingfors,CityBike Finland,12,24.9513636,60.2032721
+135,137,Arabian kauppakeskus,Arabia köpcentrum,Arabia Shopping Center,Hämeentie 111,Tavastvägen 111,Helsinki,Helsingfors,CityBike Finland,26,24.9666128,60.2027912
+136,138,Arabiankatu,Arabiagatan,Arabiankatu,Arabiankatu 7,Arabiagatan 7,Helsinki,Helsingfors,CityBike Finland,14,24.9770790117786,60.206491565145
+137,139,Kaironkatu,Kairogatan,Kaironkatu,Hämeentie 150,Tavastvägen 150,Helsinki,Helsingfors,CityBike Finland,16,24.97656317933,60.21003424069
+138,140,Verkatehtaanpuisto,Klädesfabriksparken,Verkatehtaanpuisto,Hämeentie 159,Tavastvägen 159,Helsinki,Helsingfors,CityBike Finland,14,24.9797283,60.2137007
+139,141,Intiankatu,Indiagatan,Intiankatu,Intiankatu 20,Indiagatan 20,Helsinki,Helsingfors,CityBike Finland,17,24.9676383,60.2078582
+140,142,Koskelantie,Forsbyvägen,Koskelantie,Koskelantie 5,Forsbyvägen 5,Helsinki,Helsingfors,CityBike Finland,14,24.9465139,60.208749
+141,143,Kuikkarinne,Kuikkarinne,Kuikkarinne,Isokaari 10,Storsvängen 10,Helsinki,Helsingfors,CityBike Finland,12,24.86930605276,60.15708560052
+142,144,Käpyläntie,Kottbyvägen,Käpyläntie,Käpyläntie 1,Kottbyvägen 1,Helsinki,Helsingfors,CityBike Finland,14,24.9588108,60.2139043
+143,145,Pohjolankatu,Pohjolagatan,Pohjolankatu,Pohjolankatu 1,Pohjolagatan 1,Helsinki,Helsingfors,CityBike Finland,12,24.9437964,60.213421
+144,146,Pohjolanaukio,Pohjolaplatsen,Pohjolanaukio,Pohjolankatu 40,Pohjolagatan 40,Helsinki,Helsingfors,CityBike Finland,16,24.9544112,60.2172043
+145,147,Käpylän asema,Kottby station,Käpylä station,Panuntie 4,Panuvägen 4,Helsinki,Helsingfors,CityBike Finland,19,24.9479290250383,60.2208057097763
+146,148,Juhana Herttuan tie,Hertig Johans väg,Juhana Herttuan tie,Antti Korpin tie 3a,Anders Korps väg 3a,Helsinki,Helsingfors,CityBike Finland,16,24.9664619,60.2184427
+147,149,Toinen linja,Andra linjen,Toinen linja,Toinen linja 25,Andra linjen 25,Helsinki,Helsingfors,CityBike Finland,22,24.9441949,60.183164
+148,150,Töölönlahden puisto,Tölöviksparken,Töölönlahden puisto,Karamzininranta 4,Karamzins strand  4,Helsinki,Helsingfors,CityBike Finland,29,24.9338701,60.1766793
+149,161,Eteläesplanadi,Södra Esplanaden,Eteläesplanadi,Eteläesplanadi 14,Södrä Esplanaden 14,Helsinki,Helsingfors,CityBike Finland,34,24.94746581951,60.16723083051
+150,162,Leppäsuonaukio,Alkärrsplatsen,Leppäsuonaukio,Leppäsuonaukio 1,Alkärrsplatsen 1,Helsinki,Helsingfors,CityBike Finland,24,24.92659049777,60.16957343209
+151,163,Lehtisaarentie,Lövövägen,Lehtisaarentie,Lehtisaarentie 2a,Lövövägen 2a,Helsinki,Helsingfors,CityBike Finland,12,24.85053677106,60.18147257752
+152,200,Länsiterminaali,Västra terminalen,West Terminal,Sammonlaituri,Sampokajen,Helsinki,Helsingfors,CityBike Finland,24,24.9158626673682,60.1503956286203
+153,201,Länsisatamankuja,Västrahamnsgränden,Länsisatamankuja,Länsisatamankatu 26,Västrahamnsgatan 26,Helsinki,Helsingfors,CityBike Finland,16,24.9122004401749,60.1569319135957
+154,202,Merihaka,Havshagen,Merihaka,Hakaniemenranta 10,Hagnäskajen 10,Helsinki,Helsingfors,CityBike Finland,17,24.9584522150463,60.1780659282697
+155,203,Opastinsilta,Semaforbron,Opastinsilta,Opastinsilta 10,Semaforbron 10,Helsinki,Helsingfors,CityBike Finland,40,24.9378263708758,60.199235425819
+156,204,A.I. Virtasen aukio,A. I. Virtanens plats,A.I. Virtasen aukio,Gustaf Hällströmin katu 1,Gustaf Hällströms gata 1,Helsinki,Helsingfors,CityBike Finland,1,24.962152,60.205577
+157,205,Ilmalan asema,Ilmala station,Ilmala Station,Ilmalantori 1,Ilmalatorget 1,Helsinki,Helsingfors,CityBike Finland,16,24.9222198884301,60.2066264376914
+158,206,Ruskeasuon varikko,Brunakärrs depå,Ruskeasuo depot,Mannerheimintie 117,Mannerheimvägen 117,Helsinki,Helsingfors,CityBike Finland,14,24.8986678906281,60.207679959617
+159,207,Vanha Viertotie,Gamla chaussén,Vanha Viertotie,Vanha Viertotie 23,Gamla chaussén 23,Helsinki,Helsingfors,CityBike Finland,16,24.8816602543586,60.2110752962734
+160,208,Valimotie,Gjuterivägen,Valimotie,Valimotie 1,Gjuterivägen 1,Helsinki,Helsingfors,CityBike Finland,16,24.8764647928285,60.2159222354368
+161,209,Takomotie,Smedjevägen,Takomotie,Takomotie 29,Smedjevägen 29,Helsinki,Helsingfors,CityBike Finland,14,24.870539572355,60.2178545421326
+162,210,Pajamäki,Smedjebacka,Pajamäki,Pajamäentie 12,Smedjebackavägen 12,Helsinki,Helsingfors,CityBike Finland,12,24.8556679547938,60.218807358015
+163,211,Haagan tori,Haga torg,Haagan tori,Haagan tori 1,Haga torg 1,Helsinki,Helsingfors,CityBike Finland,16,24.8995511363568,60.2122752411325
+164,212,Tunnelitie,Tunnelvägen,Tunnelitie,Tunnelitie 3,Tunnelvägen 3,Helsinki,Helsingfors,CityBike Finland,14,24.8995436957405,60.2166165374558
+165,213,Huopalahden asema,Hoplaks station,Huopalahti Station,Huopalahden aseman itäinen raittisilta,Hoplaks stations östra järnvägsb,Helsinki,Helsingfors,CityBike Finland,20,24.8950593437384,60.2180885610192
+166,214,Valimon asema,Gjuteriets station,Valimo Station,Valimopolku 3,Gjuteristigen 3,Helsinki,Helsingfors,CityBike Finland,20,24.8758709127461,60.2222942787705
+167,215,Pitäjänmäen asema,Sockenbacka station,Pitäjänmäki Station,Pitäjänmäentie 21,Sockenbackavägen 21,Helsinki,Helsingfors,CityBike Finland,16,24.8586381246216,60.2243142880515
+168,216,Jännetie,Bågsträngsvägen,Jännetie,Konalantie 6,Kånalavägen 6,Helsinki,Helsingfors,CityBike Finland,12,24.8535409588426,60.226769960916
+169,217,Marttila,Martas,Marttila,Vihdintie 302,Vichtisvägen 302,Helsinki,Helsingfors,CityBike Finland,16,24.8732273654423,60.2271432338222
+170,218,Pohjois-Haagan asema,Norra Haga station,Pohjois-Haaga Station,Pennikuja 2,Penninggränden 2,Helsinki,Helsingfors,CityBike Finland,16,24.8831288454642,60.2301514994965
+171,219,Näyttelijäntie,Skådespelarvägen,Näyttelijäntie,Kaupintie 3,Krämärvägen 3,Helsinki,Helsingfors,CityBike Finland,16,24.8874345548174,60.232852137579
+172,220,Ida Aalbergin tie,Ida Aalbergs väg,Ida Aalbergin tie,Näyttelijäntie 14,Skådespelarvägen 14,Helsinki,Helsingfors,CityBike Finland,14,24.892011409258,60.2294088233261
+173,221,Thalianaukio,Thaliaplatsen,Thalianaukio,Aino Ackten tie 1,Aino Acktés väg 1,Helsinki,Helsingfors,CityBike Finland,16,24.8947926511603,60.2253405231587
+174,222,Huovitie,Knektvägen,Huovitie,Huovitie 10,Knektvägen 10,Helsinki,Helsingfors,CityBike Finland,12,24.9032866466766,60.2219755355633
+175,223,Hämeenlinnanväylä,Tavastehusleden,Hämeenlinnanväylä,Eliel Saarisen tie 2,Eliel Saarinens väg 2,Helsinki,Helsingfors,CityBike Finland,1,24.902905,60.227422
+176,224,Vesakkotie,Snårvägen,Vesakkotie,Männikkötie 11,Talldungevägen 11,Helsinki,Helsingfors,CityBike Finland,12,24.9265647642638,60.2279423680567
+177,225,Maunula,Månsas,Maunula,Pakilantie 9,Baggbölevägen 9,Helsinki,Helsingfors,CityBike Finland,16,24.9350488400963,60.2313198690757
+178,226,Lepolantie,Lepolavägen,Lepolantie,Lepolantie 61,Lepolavägen 61,Helsinki,Helsingfors,CityBike Finland,14,24.9285950149938,60.2391089420057
+179,227,Kylävoudintie,Byfogdevägen,Kylävoudintie,Kylävoudintie 6,Byfogdevägen 6,Helsinki,Helsingfors,CityBike Finland,14,24.9525612435897,60.2244037846517
+180,228,Kustaankartano,Gustafsgård,Kustaankartano,Maapadontie 2,Jorddammsvägen 2,Helsinki,Helsingfors,CityBike Finland,20,24.9483891407923,60.2303917047945
+181,229,Käskynhaltijantie,Ståthållarvägen,Käskynhaltijantie,Hirsipadontie,Timmerdammsvägen,Helsinki,Helsingfors,CityBike Finland,16,24.9587615297592,60.2326869159381
+182,230,Mäkitorpantie,Kullatorpsvägen,Mäkitorpantie,Kylänvanhimmantie 29,Byäldstevägen 29,Helsinki,Helsingfors,CityBike Finland,1,24.962531,60.230141
+183,231,Siltavoudintie,Brofogdegränd,Siltavoudintie,Käskynhaltijantie 22,Ståthållarvägen 22,Helsinki,Helsingfors,CityBike Finland,16,24.9653950777523,60.2337068563397
+184,232,Oulunkylän asema,Åggelby station,Oulunkylä Station,Oulunkylänpolku,Åggelbystigen,Helsinki,Helsingfors,CityBike Finland,14,24.9676086063056,60.2286989543467
+185,233,Kirkkoherrantie,Kyrkoherdevägen,Kirkkoherrantie,Kirkkoherrantie 5,Kyrkoherdevägen 5,Helsinki,Helsingfors,CityBike Finland,10,24.9728193751451,60.224930365111
+186,234,Otto Brandtin tie,Otto Brandts väg,Otto Brandtin tie,Tulvaniityntie 2,Flödängsvägen 2,Helsinki,Helsingfors,CityBike Finland,16,24.9781389190405,60.2317840658415
+187,235,Katariina Saksilaisen katu,Katarina av Sachsens gata,Katariina Saksilaisen katu,Katariina Saksilaisen katu 6,Katarina av Sachsens gata 6,Helsinki,Helsingfors,CityBike Finland,16,24.9844200783587,60.2172148079775
+188,236,Hernepellontie,Ärtåkersvägen,Hernepellontie,Harjannetie 44,Krönvägen 44,Helsinki,Helsingfors,CityBike Finland,14,24.9886001154866,60.2242121410046
+189,237,Aulangontie,Aulankovägen,Aulangontie,Harjannetie 2,Krönvägen 2,Helsinki,Helsingfors,CityBike Finland,16,24.9985338198606,60.2303019266391
+190,238,Pihlajamäki,Rönnbacka,Pihlajamäki,Meripihkatie 3,Bärnstensvägen 3,Helsinki,Helsingfors,CityBike Finland,16,25.010313905081,60.2345785710341
+191,239,Viikin tiedepuisto,Viks forskarpark,Viikki Science Park,Viikintori,Vikstorget,Helsinki,Helsingfors,CityBike Finland,28,25.0100620611398,60.2275206717274
+192,240,Viikin normaalikoulu,Normalskolan i Vik,Viikki Teacher Training School,Kevättori,Vårtorget,Helsinki,Helsingfors,CityBike Finland,12,25.0276189335302,60.2274952958329
+193,241,Agronominkatu,Agronomgatan,Agronominkatu,Latokartanontori,Ladugårdstorget,Helsinki,Helsingfors,CityBike Finland,17,25.032857400999,60.2340530100318
+194,242,Von Daehnin katu,Von Daehns gata,Von Daehnin katu,Von Daehnin katu 14,Von Daehns gata 14,Helsinki,Helsingfors,CityBike Finland,14,25.0435680698823,60.2303371788655
+195,243,Mustikkamaa,Blåbärslandet,Mustikkamaa,Mustikkamaantie 8,Blåbärslandsvägen 8,Helsinki,Helsingfors,CityBike Finland,20,24.9920371101684,60.1818617791661
+196,244,Relanderinaukio,Relandersplatsen,Relanderinaukio,Ståhlbergintie 6,Ståhlbergsvägen 6,Helsinki,Helsingfors,CityBike Finland,16,25.0060192238902,60.1858874980526
+197,245,Kulosaari (M),Brändö (M),Kulosaari (M),Ukko-Pekan porras,Ukko-Pekkas trappstig,Helsinki,Helsingfors,CityBike Finland,22,25.0065665308997,60.1889500885511
+198,246,Tupasaarentie,Stugövägen,Tupasaarentie,Risto Rytin tie 30,Risto Rytis väg 30,Helsinki,Helsingfors,CityBike Finland,12,25.0153916484838,60.1879981770327
+199,247,Haakoninlahdenkatu,Håkanviksgatan,Haakoninlahdenkatu,Koirasaarentie 33,Hundholmsvägen 33,Helsinki,Helsingfors,CityBike Finland,16,25.0208609553097,60.1688685583537
+200,248,Gunillantie,Gunillavägen,Gunillantie,Koirasaarentie 32,Hundholmsvägen 32,Helsinki,Helsingfors,CityBike Finland,16,25.0329688498168,60.1719802714683
+201,249,Isosaarentie,Mjölövägen,Isosaarentie,Köökarinkuja 3,Kökargränden 3,Helsinki,Helsingfors,CityBike Finland,14,25.0449007059399,60.1754903225495
+202,250,Reiherintie,Reihersvägen,Reiherintie,Laajasalontie 13,Degerövägen 13,Helsinki,Helsingfors,CityBike Finland,12,25.0474962648877,60.167730503346
+203,251,Laajasalon ostoskeskus,Degerö köpcentrum,Laajasalo shopping center,Yliskylän puistokatu 4,Uppby parkgata 4,Helsinki,Helsingfors,CityBike Finland,1,25.0518837047931,60.1800921361006
+204,252,Humalniementie,Humleuddsvägen,Humalniementie,Ryytikuja 2,Kryddgränden 2,Helsinki,Helsingfors,CityBike Finland,14,25.0530378591019,60.1837438493829
+205,253,Tammisalon aukio,Tammelundsplatsen,Tammisalon aukio,Väylänrinne 1,Båtledsbrinken 1,Helsinki,Helsingfors,CityBike Finland,16,25.061184170925,60.191646879193
+206,254,Agnetankuja,Agnetagränden,Agnetankuja,Laivalahdenkaari 24,Båtviksbågen 24,Helsinki,Helsingfors,CityBike Finland,16,25.036412289626,60.1872341227574
+207,255,Laivalahden puistotie,Båtsviksallén,Laivalahden puistotie,Laivalahden puistotie 10,Båtsvikallén 10,Helsinki,Helsingfors,CityBike Finland,16,25.0313853067734,60.1879581030613
+208,256,Herttoniemenranta,Hertonäs strand,Herttoniemenranta,Paasivaarankatu 1,Paasivaaragatan 1,Helsinki,Helsingfors,CityBike Finland,14,25.0260657101366,60.190210145879
+209,257,Margareetankuja,Margaretagränden,Margareetankuja,Margareetankuja 4,Margaretagränden 4,Helsinki,Helsingfors,CityBike Finland,14,25.0370700354601,60.1910095813903
+210,258,Abraham Wetterin tie,Abraham Wetters väg,Abraham Wetterin tie,Sorvaajankatu 1,Svarvaregatan 1,Helsinki,Helsingfors,CityBike Finland,16,25.042580274921,60.1927078962633
+211,259,Petter Wetterin tie,Petter Wetters väg,Petter Wetterin tie,Hitsaajankatu 16,Svetsargatan 16,Helsinki,Helsingfors,CityBike Finland,20,25.0311119425851,60.1931376253641
+212,260,Herttoniemi (M),Hertonäs (M),Herttoniemi (M),Hiihtäjäntie 2,Skidlöparvägen 2,Helsinki,Helsingfors,CityBike Finland,24,25.0288720827461,60.194614624348
+213,261,Asentajanpuisto,Montörsparken,Asentajanpuisto,Asentajankatu 8,Montörsgatan 8,Helsinki,Helsingfors,CityBike Finland,16,25.0425924657535,60.1991271375826
+214,262,Siilitie (M),Igelkottsvägen (M),Siilitie (M),Siilitie 2,Igelkottsvägen 2,Helsinki,Helsingfors,CityBike Finland,22,25.0451611567263,60.2059624495914
+215,263,Herttoniemen kirkko,Hertonäs kyrka,Herttoniemi Church,Karhutie 11,Björnvägen 11,Helsinki,Helsingfors,CityBike Finland,16,25.0321121279418,60.1984429511655
+216,264,Eränkävijäntori,Jägartorget,Eränkävijäntori,Hiihtomäentie 39,Skidbacksvägen 39,Helsinki,Helsingfors,CityBike Finland,17,25.0335974122117,60.2045616636491
+217,265,Siilitie 9,Igelkottsvägen 9,Siilitie 9,Siilitie 12,Igelkottsvägen 12,Helsinki,Helsingfors,CityBike Finland,16,25.0374822156605,60.2094767053061
+218,266,Siilitie 13,Igelkottsvägen 13,Siilitie 13,Sopulirinne 2,Lemmelbrinken 2,Helsinki,Helsingfors,CityBike Finland,14,25.0437937790117,60.2150633716658
+219,267,Roihupelto,Kasåkern,Roihupelto,Viilarintie 6,Filarvägen 6,Helsinki,Helsingfors,CityBike Finland,17,25.0561740873224,60.2092346001843
+220,268,Porolahden koulu,Porovikens skola,Porolahti school,Roihuvuorentie 6b,Kasbergsvägen 6b,Helsinki,Helsingfors,CityBike Finland,18,25.0535809440573,60.1955397168387
+221,269,Peukaloisentie,Tummelitens väg,Peukaloisentie,Untuvaisentie 2,Dunungens väg 2,Helsinki,Helsingfors,CityBike Finland,12,25.0585493312324,60.1987054995554
+222,270,Tulisuontie,Kaskärrsvägen,Tulisuontie,Roihuvuorentie 25,Kasbergsvägen 25,Helsinki,Helsingfors,CityBike Finland,16,25.0600465960748,60.2020729867128
+223,271,Prinsessantie,Prinsessvägen,Prinsessantie,Prinsessantie 2,Prinsessvägen 2,Helsinki,Helsingfors,CityBike Finland,16,25.0600923335408,60.2063402326627
+224,272,Marjaniementie,Maruddsvägen,Marjaniementie,Rakettipolku 5,Raketstigen 5,Helsinki,Helsingfors,CityBike Finland,18,25.0760693599452,60.20432489167
+225,273,Kauppakartanonkuja,Handelshusgränden,Kauppakartanonkuja,Kauppakartanonkatu 13,Handelshusgatan 13,Helsinki,Helsingfors,CityBike Finland,14,25.0791548146161,60.207097461138
+226,274,Voikukantie,Smörblommevägen,Voikukantie,Kauppakartanonkatu 10,Handelshusgatan 10,Helsinki,Helsingfors,CityBike Finland,16,25.0867821055208,60.2089975994234
+227,275,Itäkeskus (M),Östra centrum (M),Itäkeskus (M),Tallinnanaukio 2,Revalsplanen 2,Helsinki,Helsingfors,CityBike Finland,28,25.0759680151555,60.2096006655281
+228,276,Puotinharju,Botbyhöjden,Puotinharju,Turunlinnantie 4,Åbohusvägen 4,Helsinki,Helsingfors,CityBike Finland,24,25.0823220943938,60.2124941655842
+229,277,Marjaniemi,Marudd,Marjaniemi,Marjaniementie 23,Maruddsvägen 23,Helsinki,Helsingfors,CityBike Finland,14,25.086296156701,60.203609556599
+230,278,Puotilantie,Botbygårdsvägen,Puotilantie,Puotilantie 4,Botbygårdsvägen 4,Helsinki,Helsingfors,CityBike Finland,14,25.1004260602333,60.2090596336624
+231,279,Puotinkylän kartano,Botby gård,Puotinkylä Manor,Puotilantie 12,Botbygårdsvägen 12,Helsinki,Helsingfors,CityBike Finland,16,25.106198742979,60.2125099078453
+232,280,Puotilan ostoskeskus,Botby köpcentrum,Puotila shopping center,Klaavuntie 11,Klåvusvägen 11,Helsinki,Helsingfors,CityBike Finland,14,25.0955595127933,60.2127005714261
+233,281,Puotila (M),Botby gård (M),Puotila (M),Vanhanlinnantori,Vanhalinnatorget,Helsinki,Helsingfors,CityBike Finland,20,25.0911245276907,60.2148207133143
+234,282,Karhulantie,Karhulavägen,Karhulantie,Kiviportintie 2,Stenportsvägen 2,Helsinki,Helsingfors,CityBike Finland,12,25.1023248499017,60.2186014784414
+235,283,Alakiventie,Understensvägen,Alakiventie,Alakiventie 4,Understensvägen 4,Helsinki,Helsingfors,CityBike Finland,14,25.0774702440526,60.2198509660164
+236,284,Myllypuro (M),Kvarnbäcken (M),Myllypuro (M),Kivensilmänkuja 1,Kvarnögsgränden 1,Helsinki,Helsingfors,CityBike Finland,28,25.0753957922287,60.2240864677873
+237,285,Orpaanporras,Lättan,Orpaanporras,Orpaanporras 14,Lättan 14,Helsinki,Helsingfors,CityBike Finland,14,25.0654218381558,60.2235651967072
+238,286,Mamsellimyllynkatu,Mamsellskvarnsgatan,Mamsellimyllynkatu,Mamsellimyllynkatu 26,Mamsellkvarnsgatan 26,Helsinki,Helsingfors,CityBike Finland,16,25.0591038761736,60.2182519698433
+239,290,Vallilan varikko,Vallgårds depå,Vallilan varikko,Hämeentie 86,Tavastvägen 86,Helsinki,Helsingfors,CityBike Finland,20,24.962832,60.195225
+240,291,Itäkeskus Metrovarikko,Östrä Centrum depå,Itäkeskus Metrovarikko,Metrovarikonkuja 6,Metrodepågränden 6,Helsinki,Helsingfors,CityBike Finland,18,25.065816,60.211446
+241,292,Koskelan varikko,Forsby depå,Koskelan varikko,Valtimontie 10,Valtimovägen 10,Helsinki,Helsingfors,CityBike Finland,16,24.969956,60.212701
+242,501,Hanasaari, Hanaholmen,Hanasaari,Hanasaarenranta 1,Hanaholmsstranden 1,Espoo,Esbo,CityBike Finland,10,24.840319,60.16582
+243,503,Keilalahti, Kägelviken,Keilalahti,Keilalahdentie 2,Kägelviksvägen 2,Espoo,Esbo,CityBike Finland,28,24.827467,60.171524
+244,505,Westendinasema, Westendstationen,Westendinasema,Westendintie 1,Westendvägen 1,Espoo,Esbo,CityBike Finland,16,24.805758,60.168266
+245,507,Golfpolku, Golfstigen,Golfpolku,Golfpolku 3,Golfstigen 3,Espoo,Esbo,CityBike Finland,16,24.796136,60.168143
+246,509,Revontulentie, Norrskensvägen,Revontulentie,Revontulentie 10,Norrskensvägen 10,Espoo,Esbo,CityBike Finland,30,24.802938,60.171551
+247,511,Sateentie, Regnvägen,Sateentie,Sateentie 2,Regnvägen 2,Espoo,Esbo,CityBike Finland,18,24.810688,60.173424
+248,513,Hakalehto, Hagliden,Hakalehto,Merituulentie 18,Havsvindsvägen 18,Espoo,Esbo,CityBike Finland,24,24.79139,60.173567
+249,515,Oravannahkatori, Gråskinnstorget,Oravannahkatori,Oravannahkatori 1,Gråskinnstorget 1,Espoo,Esbo,CityBike Finland,16,24.792559,60.175769
+250,517,Länsituuli, Västanvinden,Länsituuli,Länsituulenkuja 3,Västanvindsgränden 3,Espoo,Esbo,CityBike Finland,24,24.802049,60.175358
+251,518,Tuulimäki, Väderbacken,Tuulimäki,Itätuulenkuja 11,Östanvindsgränden 11,Espoo,Esbo,CityBike Finland,18,24.806051,60.174144
+252,519,Tapionaukio, Tapioplatsen,Tapionaukio,Tapionaukio 9,Tapioplatsen 9,Espoo,Esbo,CityBike Finland,26,24.805825,60.176168
+253,521,Kulttuuriaukio, Kulturplatsen,Kulttuuriaukio,Kulttuuriaukio 2,Kulturplatsen 2,Espoo,Esbo,CityBike Finland,30,24.803942,60.177588
+254,523,Ahertajantie, Flitarvägen,Ahertajantie,Ahertajantie 1,Flitargränden 1,Espoo,Esbo,CityBike Finland,20,24.797984,60.17875
+255,525,Mäntyviita, Tallbysket,Mäntyviita,Mäntyviita 2,Tallbysket 2,Espoo,Esbo,CityBike Finland,10,24.810974,60.178702
+256,527,Otsolahti, Björnviken,Otsolahti,Otsolahdentie 18,Björnviksvägen 18,Espoo,Esbo,CityBike Finland,18,24.817423,60.178655
+257,529,Keilaniemi (M), Kägeludden (M),Keilaniemi (M),Keilaniementie 4,Kägeluddsvägen 4,Espoo,Esbo,CityBike Finland,40,24.82895,60.175233
+258,531,Keilaranta, Kägelstranden,Keilaranta,Keilaranta 13,Kägelstranden 13,Espoo,Esbo,CityBike Finland,24,24.835132,60.178762
+259,532,Betonimies,Betongblandaren,Betonimies,Betonimiehenkuja 1,Betongblandargränden 1,Espoo,Esbo,CityBike Finland,16,24.831804,60.180027
+260,533,Tekniikantie, Teknikvägen,Tekniikantie,Tekniikantie 3,Teknikvägen 3,Espoo,Esbo,CityBike Finland,18,24.824747,60.180806
+261,537,Innopoli,Innopoli,Innopoli,Tekniikantie 14,Teknikvägen 14,Espoo,Esbo,CityBike Finland,20,24.81422,60.185096
+262,538,Hagalundinpuisto,Hagalundinpuisto,Hagalundsparken,Tekniikantie 15,Teknikvägen 15,Espoo,Esbo,CityBike Finland,14,24.817403,60.18363
+263,539,"Aalto-yliopisto (M), Tietot"," Aalto-universitetet (M),","Aalto University (M), Tietotie",Tietotie 4,Datavägen 4,Espoo,Esbo,CityBike Finland,20,24.820099,60.184987
+264,541,"Aalto-yliopisto (M), Korkea"," Aalto-universitetet (M),","Aalto University (M), Korkeakoulua",Otaniementie 10,Otnäsvägen 10,Espoo,Esbo,CityBike Finland,42,24.826671,60.184312
+265,543,Otaranta, Oststranden,Otaranta,Otaranta 6,Otstranden 6,Espoo,Esbo,CityBike Finland,22,24.837133,60.18483
+266,545,Sähkömies, Strömkarlen,Sähkömies,Otakaari 3,Otsvängen 3,Espoo,Esbo,CityBike Finland,12,24.829985,60.188499
+267,547,Jämeräntaival, Bistervägen,Jämeräntaival,Otakaari 18,Otsvängen 18,Espoo,Esbo,CityBike Finland,30,24.835033,60.188118
+268,549,Maarinranta, Marstranden,Maarinranta,Maarinrannantie 4,Marstrandvägen 4,Espoo,Esbo,CityBike Finland,12,24.810193,60.187529
+269,551,Tietäjä, Siaren,Tietäjä,Valkjärventie 4,Valkjärvivägen 4,Espoo,Esbo,CityBike Finland,20,24.807083,60.189143
+270,553,Metsänneidonpolku, Skogsjungfrustigen,Metsänneidonpolku,Metsänneidonpolku 5,Skogsjungfrustigen 5,Espoo,Esbo,CityBike Finland,19,24.806152,60.186731
+271,555,Kalevalantie, Kalevalavägen,Kalevalantie,Kalevalantie 7,Kalevalavägen 7,Espoo,Esbo,CityBike Finland,21,24.804022,60.184765
+272,557,Louhentori, Louhitorget,Louhentori,Louhentie 16,Louhivägen 16,Espoo,Esbo,CityBike Finland,16,24.796959,60.18715
+273,559,Pohjankulma, Norrhörnet,Pohjankulma,Louhentie 2,Louhivägen 2,Espoo,Esbo,CityBike Finland,25,24.794014,60.18288
+274,561,Koivu-Mankkaa, Björkmankans,Koivu-Mankkaa,Urpu 6,Hänget 6,Espoo,Esbo,CityBike Finland,23,24.78576,60.182976
+275,563,Mankkaanlaaksontie, Mankansdalsvägen,Mankkaanlaaksontie,Mankkaanlaaksontie 1,Mankansdalsvägen 1,Espoo,Esbo,CityBike Finland,26,24.780478,60.188706
+276,565,Mankkaanaukio, Mankansplatsen,Mankkaanaukio,Mankkaantie 3,Mankasvägen 3,Espoo,Esbo,CityBike Finland,20,24.769021,60.194599
+277,571,Tapiolan urheilupuisto, Hagalunds idrottspark,Tapiola Sports Park,Urheilupuistontie 3,Idrottsparksvägen 3,Espoo,Esbo,CityBike Finland,32,24.784654,60.177749
+278,573,Urheilupuisto (M), Idrottsparken (M),Sports Park (M),Jousenpuistonkatu 4,Bågparksgatan 4,Espoo,Esbo,CityBike Finland,28,24.779428,60.17465
+279,575,Tontunmäentie, Tomtekullavägen,Tontunmäentie,Tontunmäentie 25,Tomtekullavägen 25,Espoo,Esbo,CityBike Finland,16,24.769667,60.176107
+280,577,Olarinluoma, Olarsbäcken,Olarinluoma,Olarinluoma 19,Olarsbäcken 19,Espoo,Esbo,CityBike Finland,18,24.760606,60.180848
+281,579,Niittymaa, Ängsmalmen,Niittymaa,Niittymaantie 2,Ängsmalmsvägen 2,Espoo,Esbo,CityBike Finland,21,24.775913,60.171127
+282,581,Niittykumpu (M), Ängskulla (M),Niittykumpu (M),Merituulentie 38,Havsvindsvägen 38,Espoo,Esbo,CityBike Finland,35,24.763184,60.170758
+283,583,Haukilahdenkatu, Gäddviksgatan,Haukilahdenkatu,Ahventie 2,Abborrvägen 2,Espoo,Esbo,CityBike Finland,16,24.772708,60.166481
+284,585,Haukilahdenaukio, Gäddviksplatsen,Haukilahdenaukio,Haukilahdenranta 2,Gäddviksstranden 2,Espoo,Esbo,CityBike Finland,16,24.775882,60.162396
+285,587,Hauenkallio, Gäddberget,Hauenkallio,Hauenkalliontie 12,Gäddbergsvägen 12,Espoo,Esbo,CityBike Finland,12,24.767831,60.162477
+286,589,Haukilahdenranta, Gäddviksstranden,Haukilahdenranta,Haukilahdenranta 13,Gäddviksstranden 13,Espoo,Esbo,CityBike Finland,16,24.769864,60.158048
+287,591,Mellstenintie, Mellstensvägen,Mellstenintie,Mellstenintie 17,Mellstensvägen 17,Espoo,Esbo,CityBike Finland,25,24.773993,60.154941
+288,593,Toppelundintie, Toppelundsvägen,Toppelundintie,Toppelundintie 11,Toppelundsvägen 11,Espoo,Esbo,CityBike Finland,12,24.782477,60.1591405
+289,595,Westendintie, Westendvägen,Westendintie,Westendintie 34,Westendvägen 34,Espoo,Esbo,CityBike Finland,16,24.791754,60.158194
+290,596,Toppelundinportti, Toppelundsporten,Toppelundinportti,Haukilahdenkatu 2,Gäddviksgatan 2,Espoo,Esbo,CityBike Finland,20,24.7848628,60.1624471
+291,597,Linnakepolku, Fortstigen,Linnakepolku,Westendintie 99,Westendvägen 99,Espoo,Esbo,CityBike Finland,10,24.790132,60.1637
+292,601,Nokkala,Nokkala,Nokkala,Nokkalanniemi 2,Nokkalaparken 2,Espoo,Esbo,CityBike Finland,18,24.754344,60.147974
+293,603,Matinlahdenranta, Mattviksstranden,Matinlahdenranta,Rantamäki 2,Strandbacken 2,Espoo,Esbo,CityBike Finland,20,24.754196,60.151041
+294,607,Nuottaniementie, Notuddsvägen,Nuottaniementie,Nuottatie 1,Notvägen 1,Espoo,Esbo,CityBike Finland,15,24.741546,60.147921
+295,609,Sepetlahdentie, Sepetviksvägen,Sepetlahdentie,Sepetlahdentie 11,Sepetviksvägen 11,Espoo,Esbo,CityBike Finland,10,24.741234,60.152343
+296,611,Matinkartanontie, Mattgårdvägen,Matinkartanontie,Matinkartanontie 2,Mattsgårdsvägen 2,Espoo,Esbo,CityBike Finland,21,24.752489,60.156258
+297,613,Matinkyläntie, Mattbyvägen,Matinkyläntie,Joosepinkuja 1,Josefsgränden 1,Espoo,Esbo,CityBike Finland,15,24.744978,60.155689
+298,615,Tiistiläntie, Distbyvägen,Tiistiläntie,Tiistiläntie 6,Distbyvägen 6,Espoo,Esbo,CityBike Finland,24,24.737664,60.156755
+299,617,Tiistinkallio, Distberget,Tiistinkallio,Kalastajantie 29,Fiskarvägen 29,Espoo,Esbo,CityBike Finland,12,24.729112,60.153737
+300,619,Etuniementie, Framnäsvägen,Etuniementie,Kalastajantie 6,Fiskarvägen 6,Espoo,Esbo,CityBike Finland,10,24.724835,60.160645
+301,621,Hauenkalliontie, Gäddbergsvägen,Hauenkalliontie,Hauenkalliontie 22,Gäddbergsvägen 22,Espoo,Esbo,CityBike Finland,12,24.756272,60.161138
+302,623,Nelikkotie, Fjärdingsvägen,Nelikkotie,Nelikkotie 14,Fjärdingsvägen 14,Espoo,Esbo,CityBike Finland,16,24.74663,60.161588
+303,625,Suomenlahdentie, Finnviksvägen,Suomenlahdentie,Suomenlahdentie 2,Finnviksvägen 2,Espoo,Esbo,CityBike Finland,32,24.741294,60.160015
+304,627,Piispansilta, Biskopsbron,Piispansilta,Piispansilta 11,Biskopsknuten 11,Espoo,Esbo,CityBike Finland,44,24.738416,60.162403
+305,629,Piispanportti, Biskopsporten,Piispanportti,Piispanportti 4,Biskopsporten 4,Espoo,Esbo,CityBike Finland,16,24.732688,60.165603
+306,631,Friisilänaukio, Frisansplatsen,Friisilänaukio,Friisiläntie 2,Frisansvägen 2,Espoo,Esbo,CityBike Finland,12,24.721367,60.162842
+307,633,Avaruuskatu, Rymdgatan,Avaruuskatu,Avaruuskatu 1,Rymdgatan 2,Espoo,Esbo,CityBike Finland,16,24.724908,60.168971
+308,635,Kuunkatu, Mångatan,Kuunkatu,Kuunkatu 3,Mångatan 3,Espoo,Esbo,CityBike Finland,24,24.726025,60.172673
+309,637,Ruomelantie, Romensvägen,Ruomelantie,Ruomelantie 19,Romensvägen 19,Espoo,Esbo,CityBike Finland,12,24.729314,60.174524
+310,639,Itäportti, Österporten,Itäportti,Ruomelantie 5,Romensvägen 5,Espoo,Esbo,CityBike Finland,18,24.738122,60.174914
+311,641,Komeetankatu, Kometgatan,Komeetankatu,Komeetankatu 2,Kometgatan 2,Espoo,Esbo,CityBike Finland,16,24.735969,60.167216
+312,643,Auringonkatu, Solgatan,Auringonkatu,Auringonkatu 2,Solbanan 2,Espoo,Esbo,CityBike Finland,20,24.731472,60.171548
+313,645,Piispankallio, Biskopsberget,Piispankallio,Piispankallio 2,Biskopsberget 2,Espoo,Esbo,CityBike Finland,16,24.743532,60.168441
+314,647,Lystimäki, Lustikulla,Lystimäki,Lystimäentie 2,Lustikullavägen 2,Espoo,Esbo,CityBike Finland,12,24.745666,60.172814
+315,649,Lystimäensilta, Lustikullabron,Lystimäensilta,Vuosikuja 2,Årsgränden 2,Espoo,Esbo,CityBike Finland,15,24.752442,60.17471
+316,651,Suurpellonaukio, Storåkersplatsen,Suurpellonaukio,Suurpellon puistokatu 4,Storaåkerns parkgata 4,Espoo,Esbo,CityBike Finland,24,24.744131,60.184596
+317,653,Lukutori, Lukutorget,Lukutori,Suurpellon puistokatu 18,Storaåkerns parkgata 18,Espoo,Esbo,CityBike Finland,14,24.742571,60.187052
+318,701,Gallen-Kallelan tie, Gallen-Kallelas väg,Gallen-Kallelan tie,Gallen-Kallelan tie 29,Gallen-Kallelas vägen 29,Espoo,Esbo,CityBike Finland,10,24.840699,60.206142
+319,703,Elfvik,Elfvik,Elfvik,Elfvikintie 4,Elfviksvägen 4,Espoo,Esbo,CityBike Finland,10,24.8231,60.203852
+320,705,Laajalahden keskus, Bredviks centrum,Laajalahden keskus,Kirvuntie 22,Kirvusvägen 22,Espoo,Esbo,CityBike Finland,19,24.80493,60.203892
+321,707,Majurinkulma, Majorshörnet,Majurinkulma,Itsehallintotie 8,Självstyrelsevägen 8,Espoo,Esbo,CityBike Finland,24,24.824954,60.210735
+322,709,Yhdyskunnankuja, Samhällsgränden,Yhdyskunnankuja,Yhdyskunnankuja 1,Samhällsgränden 1,Espoo,Esbo,CityBike Finland,20,24.819549,60.212508
+323,711,Kirjurinkuja, Skrivargränden,Kirjurinkuja,Kirjurinkuja 1,Skrivargränden 1,Espoo,Esbo,CityBike Finland,26,24.826368,60.215751
+324,713,Upseerinkatu, Officersgatan,Upseerinkatu,Upseerinkatu 3,Officersgatan 3,Espoo,Esbo,CityBike Finland,30,24.819396,60.216067
+325,715,Komentajankatu, Kommendörsgatan,Komentajankatu,Perkkaantie 5,Bergansvägen 5,Espoo,Esbo,CityBike Finland,12,24.821932,60.216222
+326,719,Säteri, Säteri,Säteri,Säterinkatu 6,Säterigatan 6,Espoo,Esbo,CityBike Finland,32,24.811572,60.213443
+327,721,Säterinrinne, Säteribrinken,Säterinrinne,Ruusutorpantie 1,Rosatorpsvägen 1,Espoo,Esbo,CityBike Finland,16,24.805613,60.214193
+328,723,Säterinniitty, Säteriängen,Säterinniitty,Säterinpuistontie 16,Säteriparksvägen 16,Espoo,Esbo,CityBike Finland,10,24.800486,60.214666
+329,725,Rummunlyöjänkatu, Trumslagargatan,Rummunlyöjänkatu,Leppävaarankatu 13,Albergagatan 13,Espoo,Esbo,CityBike Finland,20,24.806279,60.217261
+330,727,Ratsutori, Ryttartorget,Ratsutori,Leppävaarankatu 1,Albergagatan 1,Espoo,Esbo,CityBike Finland,33,24.812419,60.217311
+331,729,Leppävaaranaukio, Albergaplanen,Leppävaaranaukio,Hevosenkenkä 3,Hästskon 3,Espoo,Esbo,CityBike Finland,30,24.813885,60.218869
+332,731,Leppävaarankäytävä, Albergapassagen,Leppävaarankäytävä,Läkkisepänkuja 3,Bleckslagargränden 3,Espoo,Esbo,CityBike Finland,21,24.813437,60.220254
+333,733,Läkkitori, Blecktorget,Läkkitori,Läkkisepänkuja 3,Bleckslagargränden 3,Espoo,Esbo,CityBike Finland,25,24.813109,60.221019
+334,735,Armas Launiksen katu,Armas Launis gata,Armas Launiksen katu,Armas Launiksen katu 8,Armas Launis gata 8,Espoo,Esbo,CityBike Finland,20,24.818128,60.221781
+335,737,Muurarinkuja, Murargränden,Muurarinkuja,Muurarinkuja 4,Murargränden 4,Espoo,Esbo,CityBike Finland,19,24.812271,60.223769
+336,739,Postipuun koulu,Postipuun koulu,Postipuun koulu,Mäkkylän puistotie 14,Mäkkyläallén 14,Espoo,Esbo,CityBike Finland,16,24.826396,60.223827
+337,741,Gransinmäki, Gransbacken,Gransinmäki,Vanha maantie 6,Gamla landsvägen 6,Espoo,Esbo,CityBike Finland,20,24.804898,60.222154
+338,745,Leppävaaran urheilupuisto, Alberga idrottspark,Leppävaaran urheilupuisto,Veräjäpellonkatu 17,Grindåkersgatan 17,Espoo,Esbo,CityBike Finland,32,24.800971,60.224943
+339,747,Leppävaaran uimahalli, Alberga simhall,Leppävaaran uimahalli,Veräjäpellonkatu 12,Grindåkersgatan 12,Espoo,Esbo,CityBike Finland,18,24.804735,60.226379
+340,749,Vallikatu, Vallgatan,Vallikatu,Vallikatu 19,Vallgatan 19,Espoo,Esbo,CityBike Finland,24,24.813871,60.228463
+341,751,Vallipolku, Vallgången,Vallipolku,Vallikatu 12,Vallgatan 12,Espoo,Esbo,CityBike Finland,20,24.819614,60.227827
+342,753,Linnuntie, Fågelvägen,Linnuntie,Linnuntie 2,Fågelsvägen 2,Espoo,Esbo,CityBike Finland,24,24.813954,60.234401
+343,755,Kutsuntatie, Uppbådsvägen,Kutsuntatie,Lintulaaksontie 2,Fågeldalsvägen 2,Espoo,Esbo,CityBike Finland,16,24.824561,60.230453
+344,757,Painiitty, Pajängen,Painiitty,Lotankatu 1,Lottagatan 1,Espoo,Esbo,CityBike Finland,12,24.831397,60.235089
+345,761,Mäkkylän asema, Mäkkylä station,Mäkkylän asema,Perkkaantie 20,Bergansvägen 20,Espoo,Esbo,CityBike Finland,32,24.83939,60.220467
+346,763,Kalkkipellonmäki, Kalkåkersbacken,Kalkkipellonmäki,Turuntie 22,Åbovägen 22,Espoo,Esbo,CityBike Finland,24,24.833536,60.220551
+347,767,Ruutikatu, Krutgatan,Ruutikatu,Ruutikatu 10,Krugranden 10,Espoo,Esbo,CityBike Finland,10,24.820635,60.223377
+348,769,Tiurintie, Tiurisvägen,Tiurintie,Kurkijoentie 1,Kronoborgsvägen 1,Espoo,Esbo,CityBike Finland,12,24.814794,60.204582
+349,900,Orionintie,Orionvägen,Orionintie,Orionintie 3-5,Orionvägen 3-5,Espoo,Esbo,CityBike Finland,20,24.771826,60.180118
+350,901,O'Bike Station,O'Bike Station,O'Bike Station,Rauhalanpuisto 11,Rauhalaparken 11,Espoo,Esbo,CityBike Finland,20,24.742219,60.163412

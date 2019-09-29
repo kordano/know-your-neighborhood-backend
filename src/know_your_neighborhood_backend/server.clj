@@ -36,7 +36,8 @@
 (defn parse-distance [raw-py-results]
   (->> (string/split raw-py-results #"\n")
        (map #(->> (string/split % #",")
-                  (zipmap [:additionalText :distance :lat :lon])))))
+                  (zipmap [:additionalText :distance :lat :lon :service])))))
+
 
 (def app
   (->
@@ -51,12 +52,14 @@
        ["/search"
         {:get {:parameters {:query ::search}
                :handler (fn [{{coords :query} :parameters}]
-                          (let [results (parse-distance (:out (sh/sh "python" "dateParser.py")))
-                                next-station (select-keys (clojure.set/rename-keys (first results) {:additionalText :stationName}) [:stationName :distance])
-                                drawing (->> results
+                          (let [distances (parse-distance (:out (sh/sh "python" "lamia_main.py" )))
+                                next-station (select-keys (clojure.set/rename-keys (first distances) {:additionalText :bikeStop}) [:bikeStop :distance])
+                                distances (rest distances)
+                                next-termimal (select-keys (clojure.set/rename-keys (first distances) {:additionalText :terminal}) [:terminal :distance])
+                                drawing (->> distances
                                              rest
                                              (map (fn [r] (-> r
-                                                              (assoc :type "Mark" )
+                                                              (assoc :type "Mark" :tooltip (:additionalText r) :popup (:service r))
                                                               (dissoc :distance))))
                                              (into #{})
                                              vec)]
