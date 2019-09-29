@@ -19,8 +19,6 @@
             [clojure.string :as string]
             [clojure.java.shell :as sh]))
 
-;;  drawing: [{"type": "Mark","lat": "123","lon": "123","additionalText": ""}]
-
 (defn ok [d] {:status 200 :body d})
 (defn bad-request [d] {:status 400 :body d})
 (defn body [req] (get-in req [:parameters :body]))
@@ -38,7 +36,6 @@
        (map #(->> (string/split % #",")
                   (zipmap [:additionalText :distance :lat :lon :service])))))
 
-
 (def app
   (->
    (ring/ring-handler
@@ -53,17 +50,20 @@
         {:get {:parameters {:query ::search}
                :handler (fn [{{coords :query} :parameters}]
                           (let [distances (parse-distance (:out (sh/sh "python" "lamia_main.py" )))
-                                next-station (select-keys (clojure.set/rename-keys (first distances) {:additionalText :bikeStop}) [:bikeStop :distance])
+                                next-station (select-keys (clojure.set/rename-keys (first distances) {:additionalText :name}) [:name :distance])
                                 distances (rest distances)
-                                next-termimal (select-keys (clojure.set/rename-keys (first distances) {:additionalText :terminal}) [:terminal :distance])
+                                next-termimal (select-keys (clojure.set/rename-keys (first distances) {:additionalText :name}) [:name :distance])
+                                distances (rest distances)
+                                freqs (frequencies (map :service distances))
                                 drawing (->> distances
-                                             rest
                                              (map (fn [r] (-> r
                                                               (assoc :type "Mark" :tooltip (:additionalText r) :popup (:service r))
-                                                              (dissoc :distance))))
+                                                              (dissoc :distance :service))))
                                              (into #{})
-                                             vec)]
-                            (ok {:results next-station :drawing drawing})))}}]]]
+                                             vec)
+                                a-to-b (:out (sh/sh "python" "pythonscripts/a_to_b.py" ))]
+
+                            (ok {:results [{:nextBike next-station} {:nextTerminal next-termimal} {:services freqs}] :drawing drawing})))}}]]]
      {:data {:coercion reitit.coercion.spec/coercion
              :muuntaja m/instance
              :middleware [swagger/swagger-feature

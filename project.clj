@@ -10,6 +10,7 @@
                  [clj-time "0.15.1"]
                  [ring-cors "0.1.13"]
                  [org.clojure/data.csv "0.1.4"]
+                 [org.clojure/data.json "0.2.6"]
                  [techascent/tech.ml.dataset "1.25"]
                  [mount "0.1.16"]]
   :repl-options {:init-ns know-your-neighborhood-backend.core})
